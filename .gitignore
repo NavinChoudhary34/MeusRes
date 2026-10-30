@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local database
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Generated exports (keep the folder)
+data/exports/*
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
